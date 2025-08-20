@@ -2,13 +2,10 @@
   "name": "gemini-stt-manychat",
   "version": "1.0.0",
   "type": "module",
-  "description": "Servidor Express para transcribir audios de WhatsApp con Gemini y usar en Manychat",
   "main": "server.mjs",
-  "scripts": {
-    "start": "node server.mjs"
-  },
+  "scripts": { "start": "node server.mjs" },
   "dependencies": {
-    "@google/genai": "^1.0.0",
+    "@google/generative-ai": "^0.8.0",
     "express": "^4.19.2",
     "ffmpeg-static": "^5.2.0",
     "fluent-ffmpeg": "^2.1.2",
