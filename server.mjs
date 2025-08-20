@@ -80,5 +80,5 @@ app.post("/transcribe", async (req, res) => {
 
 app.get("/healthz", (_req, res) => res.send("ok"));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || "https://servimil.onrender.com/transcribe;"
 app.listen(port, () => console.log(`🚀 Server corriendo en puerto ${port}`));
